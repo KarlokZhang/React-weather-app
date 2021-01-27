@@ -1,5 +1,6 @@
 import "./App.css";
 import Current from "./components/Current/Current";
+import Forecast from "./components/Forecast/Forecast";
 
 function App() {
   return (
@@ -8,11 +9,11 @@ function App() {
         <div className="top">
           <Current />
         </div>
-        {/* <div className="bottom">
-          <OtherCities />
-          <VerticalDivider className="verticalDivider__bottom" />
+        <div className="bottom">
+          {/* <OtherCities />
+          <VerticalDivider className="verticalDivider__bottom" /> */}
           <Forecast />
-        </div> */}
+        </div>
       </div>
     </div>
   );

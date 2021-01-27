@@ -1,4 +1,37 @@
 .app {
   min-height: 100vh;
-  background-color: beige;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  background: white;
+  min-height: 40vh;
+  width: 80vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.bottom {
+  background: white;
+  min-height: 20vh;
+  width: 80vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  display: flex;
 }
