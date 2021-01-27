@@ -1,13 +1,14 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import "./Current.css";
+import Temperature from "../Temperature/Temperature";
 
 function Current() {
   return (
     <div className="current">
       <div className="current__left">
         <div>
-          <h2 className="current__temp">30.24 °C</h2>
+          <Temperature degree={24} className="temperature__top" />
           <h3 className="current__weather">Clouds</h3>
         </div>
       </div>

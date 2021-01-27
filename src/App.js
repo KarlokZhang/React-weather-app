@@ -1,6 +1,7 @@
 import "./App.css";
 import Current from "./components/Current/Current";
 import Forecast from "./components/Forecast/Forecast";
+import Temperature from "./components/Temperature/Temperature";
 
 function App() {
   return (

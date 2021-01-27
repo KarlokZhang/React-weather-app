@@ -1,1 +1,5 @@
-
+.temperature__top {
+  margin: 0;
+  text-align: center;
+  font-size: 5rem;
+}
