@@ -1,1 +1,14 @@
+.meta {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
 
+.title {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.value {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}

@@ -2,6 +2,7 @@
   display: flex;
   padding: 40px 0;
   flex-direction: column;
+
   background-image: url(https://i.imgur.com/GhQZhaO.jpg);
   background-size: cover;
   border-top-left-radius: 32px;
@@ -11,6 +12,7 @@
 }
 
 .current__left {
+  text-align: center;
   padding: 0 24px;
 }
 
@@ -38,4 +40,12 @@
   margin-top: 3rem;
   display: flex;
   justify-content: space-around;
+}
+
+.humidity {
+  margin-right: 32px;
+}
+
+.wind {
+  margin-left: 32px;
 }

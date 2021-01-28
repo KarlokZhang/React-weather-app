@@ -14,9 +14,9 @@ function Current() {
         </div>
         <span className="weather--description">Clouds</span>
         <div className="metas">
-          <Meta title={"HUMIDITY"} value={"57%"} />
+          <Meta className="humidity" title={"HUMIDITY"} value={"57%"} />
           <VerticalDivider className="verticalDivider__top" />
-          <Meta title={"HUMIDITY"} value={"57%"} />
+          <Meta className="wind" title={"WIND"} value={"3.6 K/M"} />
         </div>
       </div>
       <div className="current__right"></div>
