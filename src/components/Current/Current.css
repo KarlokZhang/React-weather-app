@@ -1,5 +1,35 @@
+.current {
+  display: flex;
+  padding: 40px 0;
+  flex-direction: column;
+  background-image: url(https://i.imgur.com/GhQZhaO.jpg);
+  background-size: cover;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  color: white;
+  position: relative;
+}
+
+.current__left {
+  padding: 0 24px;
+}
+
+.current__right {
+  display: flex;
+  justify-content: center;
+  order: -1;
+}
+
 .temperature__top {
   margin: 0;
   text-align: center;
   font-size: 5rem;
+}
+
+.weather--description {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-top: 0.25rem;
+  color: rgba(255, 255, 255, 0.7);
 }

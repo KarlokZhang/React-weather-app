@@ -1,37 +1,20 @@
 .app {
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background-image: url(https://wallpaperaccess.com/full/2629319.png);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.top {
+.weather {
+  margin: 60px;
   background: white;
-  min-height: 40vh;
-  width: 80vh;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  backdrop-filter: blur(2rem);
-  display: flex;
+  border-radius: 32px;
+  box-shadow: 0 0 16px rgb(0, 0, 0, 0.5);
 }
 
 .bottom {
-  background: white;
-  min-height: 20vh;
-  width: 80vh;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  backdrop-filter: blur(2rem);
   display: flex;
+  flex-direction: column;
 }

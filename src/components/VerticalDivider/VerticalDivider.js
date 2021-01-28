@@ -1,9 +1,6 @@
 import React from "react";
+import "./VerticalDivider.css";
 
-function VerticalDivider({ color, width, className }) {
-  return (
-    <div className={className} style={{ width, backgroundColor: color }}></div>
-  );
-}
+const VerticalDivider = ({ className }) => <div className={className}></div>;
 
 export default VerticalDivider;
