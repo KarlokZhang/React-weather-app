@@ -23,7 +23,10 @@ function Current() {
           </div>
         </div>
       </div>
-      <div className="current__right"></div>
+      <div className="current__right">
+        <h2 className="current__city">Melbourne</h2>
+      </div>
+      <div className="current__bottom"></div>
     </div>
   );
 }

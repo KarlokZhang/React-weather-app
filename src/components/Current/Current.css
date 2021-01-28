@@ -1,8 +1,7 @@
 .current {
   display: flex;
-  padding: 40px 0;
-  flex-direction: column;
-
+  padding: 64px 0;
+  flex-direction: row;
   background-image: url(https://i.imgur.com/GhQZhaO.jpg);
   background-size: cover;
   border-top-left-radius: 32px;
@@ -13,13 +12,14 @@
 
 .current__left {
   text-align: center;
-  padding: 0 24px;
+  padding: 0 96px;
 }
 
 .current__right {
+  padding: 0 96px;
   display: flex;
   justify-content: center;
-  order: -1;
+  order: 1;
 }
 
 .temperature__top {
@@ -48,4 +48,30 @@
 
 .wind {
   margin-left: 32px;
+}
+
+.current__city {
+  margin: 16px 0px 0px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.current__city::after {
+  content: "";
+  display: block;
+  margin-top: 0.5rem;
+  height: 1px;
+  background: white;
+  border-radius: 2px;
+  width: 50%;
+  transform: translateX(50%);
+}
+
+.current__bottom {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1.5rem;
 }
