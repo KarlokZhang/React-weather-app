@@ -1,11 +1,11 @@
 import React from "react";
-import "./Meta.css";
+import styles from "./Meta.module.css";
 
 const Meta = ({ title, value }) => (
-  <div className="meta">
-    <span className="title">{title}</span>
+  <div className={styles.meta}>
+    <span className={styles.title}>{title}</span>
     <br></br>
-    <span className="value">{value}</span>
+    <span className={styles.value}>{value}</span>
   </div>
 );
 

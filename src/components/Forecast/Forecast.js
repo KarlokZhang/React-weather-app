@@ -1,5 +1,5 @@
 import React from "react";
-import "./Forecast.css";
+import styles from "./Forecast.module.css";
 
 function Forecast() {
   return <div className="forecastWeather"></div>;
