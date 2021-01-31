@@ -1,0 +1,29 @@
+.city {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.name {
+  font-weight: normal;
+  margin-right: 0.5rem;
+  width: 120px;
+  letter-spacing: 1px;
+  margin: 0;
+  flex: 1;
+  font-size: 1rem;
+}
+
+.temperature {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.weather {
+  margin-left: 1rem;
+}
