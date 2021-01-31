@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./City.module.css";
 import Temperature from "../../../Temperature/Temperature";
 
-const City = ({ name, temperature }) => (
+const City = ({ name, degree }) => (
   <div className={styles.city}>
     <h3 className={styles.name}>{name}</h3>
     <div className={styles.temperature}>
-      <Temperature>{temperature}</Temperature>
+      <Temperature degree={degree}></Temperature>
     </div>
     <img
       className={styles.weather}

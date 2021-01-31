@@ -6,7 +6,7 @@ const OtherCities = () => (
   <div className={styles.OtherCities}>
     <h2 className={styles.header}>Other Cities</h2>
     <div>
-      <City name="Sydney" temperature="22"></City>
+      <City name="Sydney" degree="22"></City>
     </div>
   </div>
 );
