@@ -1,7 +1,8 @@
 import styles from "./App.module.css";
 import Current from "./components/Current/Current";
 import Forecast from "./components/Forecast/Forecast";
-import Temperature from "./components/Temperature/Temperature";
+import OtherCities from "./components/OtherCities/OtherCities";
+import VerticalDivider from "./components/VerticalDivider/VerticalDivider";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
           <Current />
         </div>
         <div className={styles.bottom}>
-          {/* <OtherCities />
-          <VerticalDivider className="verticalDivider__bottom" /> */}
+          <OtherCities />
+          <VerticalDivider className={styles.verticalDivider__bottom} />
           <Forecast />
         </div>
       </div>

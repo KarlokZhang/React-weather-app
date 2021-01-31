@@ -1,0 +1,14 @@
+.otherCities {
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 24px 36px;
+}
+
+.header {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 1rem;
+}

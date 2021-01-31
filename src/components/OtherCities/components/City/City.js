@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./City.module.css";
 import Temperature from "../../../Temperature/Temperature";
-import src from "*.avif";
 
 const City = ({ name, temperature }) => (
   <div className={styles.city}>
@@ -12,6 +11,7 @@ const City = ({ name, temperature }) => (
     <img
       className={styles.weather}
       src="http://openweathermap.org/img/wn/04d.png"
+      alt="weather"
     ></img>
   </div>
 );

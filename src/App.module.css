@@ -18,3 +18,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.verticalDivider__bottom {
+  width: 3px;
+  color: gba(0, 0, 0, 0.1);
+}
