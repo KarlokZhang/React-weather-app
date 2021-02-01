@@ -3,7 +3,7 @@ import styles from "./OtherCities.module.css";
 import City from "./components/City/City";
 
 const OtherCities = () => (
-  <div className={styles.OtherCities}>
+  <div className={styles.otherCities}>
     <h2 className={styles.header}>Other Cities</h2>
     <div>
       <City name="Sydney" degree="22" icon="10n"></City>
