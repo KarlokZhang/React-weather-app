@@ -1,1 +1,17 @@
+.forecastWeather {
+  padding: 0 48px;
+  border: 0;
+}
 
+.header {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.weathers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 280px;
+}
