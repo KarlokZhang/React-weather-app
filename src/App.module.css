@@ -16,6 +16,7 @@
 
 .bottom {
   display: flex;
+  flex-direction: row;
   padding: 36px 0;
 }
 

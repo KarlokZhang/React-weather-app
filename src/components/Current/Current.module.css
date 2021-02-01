@@ -18,7 +18,7 @@
 .current__right {
   padding: 0 96px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   order: 1;
 }
 

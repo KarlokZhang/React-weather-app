@@ -10,7 +10,7 @@ function Current() {
     <div className={styles.current}>
       <div className={styles.current__left}>
         <div className={styles.temperature__top}>
-          <Temperature degree={24} />
+          <Temperature degree={24.84} />
         </div>
         <span className={styles.description}>Clouds</span>
         <div className={styles.metas}>
