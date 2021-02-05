@@ -6,7 +6,7 @@ function Temperature({ degree, className }) {
       {degree}
       <span>
         &nbsp;
-        <span>&#8451;</span>
+        <span>&#176;</span>
       </span>
     </span>
   );
